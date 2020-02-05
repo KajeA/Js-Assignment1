@@ -1,0 +1,98 @@
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+GENERAL 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.container {
+    max-width: 900px;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+NAV 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+nav {
+    border-bottom: 1px solid #ededed;
+}
+
+.navbar > .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .container ul {
+    display: flex;
+}
+
+nav .container ul li {
+    margin: 0 10px;
+    font-size: 12px;
+}
+
+.logo {
+    background: url('./img/logo.svg');
+    background-size: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 30px;
+    width: 30px;
+}
+
+@media (max-width: 600px) {
+    nav .container {
+        padding: 0 30px;
+    }
+
+    nav .container ul {
+        display: none;
+    }
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+CARDS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Your styles go here */
+
+.card-row {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card1 {
+    align-content: flex-start;
+    height: 16rem;
+    width: 16rem;
+    background-color: black;
+    margin: 1rem 1rem 0 1rem;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px #9e9c9c;
+}
+
+/* Card Heading */
+
+h2 {
+    font-size: 11px;
+    padding: 1.5rem 0 0 1rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+h3 {
+    font-size: 22px;
+    padding: 0.2rem 0.6rem 0 1rem;
+    color: white;
+    font-weight: 600;
+}
+
+button {
+    padding: 0.5rem 1.5rem 0.4rem 1rem;
+    margin: 6rem 0 0 1.5rem;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 10px;
+    background-color: white;
+}
